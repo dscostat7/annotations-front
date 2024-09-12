@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+<h1 align="center">
+	ANNOTATIONS  
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">React</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/badge/React-blue">
+  <img alt="License" src="https://img.shields.io/badge/DayJS-yellow">
+  <img alt="License" src="https://img.shields.io/badge/TanStack-orange">
+  <img alt="License" src="https://img.shields.io/badge/Tailwind-blue">
+  <img alt="License" src="https://img.shields.io/badge/Vite-green">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <a href="https://beacons.ai/dscostat7/" target="_blank">
+    <img alt="by Diego Souza" src="https://img.shields.io/badge/Made%20by-Diego%20Souza-blue">
+  </a>
 
-## Expanding the ESLint configuration
+  <a href="https://www.linkedin.com/in/dscostat7/" target="_blank">
+    <img alt="Follow me Linkedin" src="https://img.shields.io/badge/Follow%20up-Diego%20Souza-2ecc71?style=social&logo=linkedin">
+  </a>
+</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Project
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This is a front-end in React using TS application ANNOTATIONS.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🔧 Technologies
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- React
+- TypeScript
+- Tailwind
+- DayJS
+- Radix
+- TanStack Query
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🚧 Dev dependencies:
+
+- Biome
+- Vite
+- Tailwind
+- TypeScript
+
+## 💻 Commands for use
+
+- Clone this project and clone project <a href="https://github.com/dscostat7/annotations-server" target="_blank">Back-end in this route</a> and follow steps
+- Run project local `npm install` and `npm run dev`
+- Open in your browser and navegate
+
+---
+
+Developed by <a href="https://beacons.ai/dscostat7/" target="_blank">Diego Souza</a>
+
+---
